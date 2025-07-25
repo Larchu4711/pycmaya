@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycmaya"
+version = "0.1.0"
+description = "Simple package demonstrating use of maya library"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Example", email = "example@example.com"}]
+dependencies = ["maya"]
+
+[project.scripts]
+pycmaya = "pycmaya.__main__:main"
